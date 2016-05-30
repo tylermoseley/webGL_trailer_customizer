@@ -1,0 +1,18 @@
+body {
+	margin: 0;
+	overflow: hidden;
+	font: 62.5% "Trebuchet MS", sans-serif;
+}
+#webGL-container {
+	margin: 0;
+}
+#accordion {
+	position: absolute;
+	top: 20px;
+    left: 20px;
+    z-index: 10;
+	width: 220px;
+}
+select {
+	width: 150px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<meta charset="utf-8">
+    <title>Trailer Demo</title>
+    <script src="js/three.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/ColladaLoader.js"></script>
+    <script src="js/collada/Animation.js"></script>
+	<script src="js/collada/AnimationHandler.js"></script>
+	<script src="js/collada/KeyFrameAnimation.js"></script>
+    <script src="js/tween.min.js"></script>
+    <script src="js/Detector.js"></script>
+    <script src="js/stats.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
+	<link href="jquery/jquery-ui.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/include.css">
+</head>
+
+<body>
+	<form action="#"><fieldset>
+		<div id="accordion">
+			<h3>Base Model</h3>
+			<div>
+				<label for="base">Select a Base Model</label>
+				<select name="base" id="base">
+				  <option value="./models/4x8_tilt.dae">4' X 8' (Tilt)</option>
+				  <option value="./models/6x10.dae" selected="selected">6' X 10'</option>
+				  <option value="./models/7x14.dae">7' X 14'</option>
+				  <option value="./models/car_hauler.dae">Car hauler</option>
+				</select>
+			</div>
+			<h3>Rails</h3>
+				<div>
+					Front - Height
+					Sides - Height
+					Side Ramp - Type (Right, Left, Both)
+					Rear Rail - Height
+					Rear Ramp - 
+				</div>
+			<h3>Axles</h3>
+				<div>
+					Single
+					Double
+				</div>
+			<h3>Accessories</h3>
+				<div>
+					Spare Tire
+					Jack
+					Tongue Tool Box
+					Brakes
+				</div>
+		</div>
+		<div id="webGL-container"></div>
+	</fieldset></form>
+	<script src="jquery/external/jquery/jquery.js"></script>
+	<script src="jquery/jquery-ui.js"></script>
+    <script src="js/include.js"></script>
+	
+</body>
+</html>
